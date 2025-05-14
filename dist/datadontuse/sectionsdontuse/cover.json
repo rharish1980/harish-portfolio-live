@@ -1,0 +1,235 @@
+{
+    "locales": {
+      "en": {
+        "title": "Welcome!",
+        "title_menu": "About me",
+        "title_long_prefix": "Hello...",
+        "title_long": "I'm **Harish RRRR!**"
+      }
+    },
+    "articles": [
+      {
+        "id": "contact_list",
+        "component": "ArticleGrid",
+        "config": {
+          "ignorePaddingTop": true,
+          "format": "inline"
+        },
+        "locales": {
+          "en": {}
+        },
+        "items": [
+          {
+            "value": "Cupertino – CA",
+            "links": [
+              {"href": null}
+            ],
+            "icon": {
+              "img": null,
+              "fa": "fa-solid fa-city",
+              "faColors": {"bg": null, "fill": null}
+            }
+          },
+          {
+            "value": "r-harish@live.com",
+            "links": [
+              {"href": "mailto:r-harish@live.com"}
+            ],
+            "icon": {
+              "img": null,
+              "fa": "fa-solid fa-envelope",
+              "faColors": {"bg": null, "fill": null}
+            }
+          }
+        ]
+      },
+      {
+        "id": "short_description",
+        "component": "ArticleInfoBlock",
+        "config": {},
+        "locales": {
+          "en": {
+            "title": "**A little bit** about me..."
+          }
+        },
+        "items": [
+          {
+            "icon": {
+              "img": "images/svg/logo.svg",
+              "fa": null,
+              "faColors": {"bg": null, "fill": null}
+            },
+            "locales": {
+              "en": {
+                "text": "<p>I’m a PHP developer with <b>over a decade</b> of experience, specializing in backend development with some frontend work as well. I also have hands-on experience with C++, C#, Go, and Python in production environments.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs.</p><p>I look forward to collaborating <b>with you!</b>"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "testimonials",
+        "component": "ArticleTestimonials",
+        "config": {},
+        "locales": {
+          "en": {"title": "Client **testimonials**"}
+        },
+        "items": [
+          {
+            "value": "Anita Bath",
+            "links": [
+              {"href": "https://linkedin.com"}
+            ],
+            "icon": {
+              "img": "images/pictures/person-1.png",
+              "fa": "fa-solid fa-user",
+              "faColors": null
+            },
+            "locales": {
+              "en": {
+                "info": "CEO at <b>SalesForce</b>",
+                "text": "Working with Harish R was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
+              }
+            }
+          },
+          {
+            "value": "Lou Natic",
+            "links": [
+              {"href": "https://github.com"}
+            ],
+            "icon": {
+              "img": "images/pictures/person-3.png",
+              "fa": null,
+              "faColors": {"bg": null, "fill": null}
+            },
+            "locales": {
+              "en": {
+                "info": "Lead Developer at <b>GitHub</b>",
+                "text": "Having Harish R on our team was an invaluable asset. His deep programming insights and mentorship not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
+              }
+            }
+          },
+          {
+            "value": "Paige Turner",
+            "links": [
+              {"href": null}
+            ],
+            "icon": {
+              "img": "images/pictures/person-2.png",
+              "fa": null,
+              "faColors": {"bg": null, "fill": null}
+            },
+            "locales": {
+              "en": {
+                "info": "Managing Director at <b>Dingga</b>",
+                "text": "Collaborating with Harish R was a game changer for our development process. His expertise and problem-solving abilities were invaluable to our success."
+              }
+            }
+          },
+          {
+            "value": "Chris P. Bacon",
+            "links": [
+              {"href": "https://dribbble.com"}
+            ],
+            "icon": {
+              "img": "images/pictures/person-4.png",
+              "fa": null,
+              "faColors": {"bg": null, "fill": null}
+            },
+            "locales": {
+              "en": {
+                "info": "Creative Director at <b>Dribbble</b>",
+                "text": "Harish R's attention to detail and his innovative thinking brought a fresh perspective to our design process. He truly elevated our team's work and helped us deliver results beyond expectations."
+              }
+            }
+          },
+          {
+            "value": "Matt Wood",
+            "links": [
+              {"href": "https://www.linkedin.com/in/woodmatt"}
+            ],
+            "icon": {
+              "img": null,
+              "fa": "fa-brands fa-linkedin",
+              "faColors": null
+            },
+            "locales": {
+              "en": {
+                "info": "VP, Sustainability, Cargill",
+                "text": "A rare leader who balances vision with action—Harish always delivers impact."
+              }
+            }
+          },
+          {
+            "value": "Manoj Kumar",
+            "links": [
+              {"href": "https://www.linkedin.com/in/mkmenon8"}
+            ],
+            "icon": {
+              "img": null,
+              "fa": "fa-brands fa-linkedin",
+              "faColors": null
+            },
+            "locales": {
+              "en": {
+                "info": "Sr. IT Program Leader",
+                "text": "A passionate transformation leader with deep Agile expertise—highly recommended."
+              }
+            }
+          },
+          {
+            "value": "Léa Yue Xu",
+            "links": [
+              {"href": "https://www.linkedin.com/in/lea-yue-xu"}
+            ],
+            "icon": {
+              "img": null,
+              "fa": "fa-brands fa-linkedin",
+              "faColors": null
+            },
+            "locales": {
+              "en": {
+                "info": "Head of Research & Analytics, LDC",
+                "text": "He transitioned our JV from chaos to high-performing Agile teams."
+              }
+            }
+          },
+          {
+            "value": "Sophia Savvides",
+            "links": [
+              {"href": "https://www.linkedin.com/in/sophia-savvides"}
+            ],
+            "icon": {
+              "img": null,
+              "fa": "fa-brands fa-linkedin",
+              "faColors": null
+            },
+            "locales": {
+              "en": {
+                "info": "Director, Strategy & Sustainability, Avery Dennison",
+                "text": "Harish delivers quality products on time with grace, even under pressure."
+              }
+            }
+          },
+          {
+            "value": "Silvio Basante",
+            "links": [
+              {"href": "https://www.linkedin.com/in/silvio-basante-181b30a2"}
+            ],
+            "icon": {
+              "img": null,
+              "fa": "fa-brands fa-linkedin",
+              "faColors": null
+            },
+            "locales": {
+              "en": {
+                "info": "Sr. Director, Sustainability Tech & Data Lead",
+                "text": "Harish builds high-performing teams and drives results with clarity and empathy."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

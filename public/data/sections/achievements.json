@@ -1,299 +1,266 @@
 {
-    "locales": {
-        "en": {
-            "title": "Awards",
-            "title_menu": "Achievements",
-            "title_long_prefix": "Here are my",
-            "title_long": "Career **Achievements**"
+  "locales": {
+    "en": {
+      "title": "Awards",
+      "title_menu": "Achievements",
+      "title_long_prefix": "Here are my",
+      "title_long": "Career **Achievements**"
+    }
+  },
+  "articles": [
+    {
+      "id": "certifications",
+      "component": "ArticleCards",
+      "config": {},
+      "locales": {
+        "en": { "title": "Certifications" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": "images/logo/cspo.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "05/05/2016",
+            "end": null
+          },
+          "links": [
+            { "string": "see_certification", "href": "https://www.scrumalliance.org/" }
+          ],
+          "locales": {
+            "en": {
+              "title": "**Certified Product Owner**",
+              "text": "Scrum Alliance CSPO</p><p>**Credential ID: 000350385**"
+            }
+          }
         },
-
-        "es": {
-            "title": "Logros",
-            "title_menu": "Logros",
-            "title_long_prefix": "Aquí están mis",
-            "title_long": "**Logros** Profesionales"
+        {
+          "icon": {
+            "img": "images/logo/git.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "05/05/2018",
+            "end": null
+          },
+          "links": [
+            { "string": "see_certification", "href": "https://about.gitlab.com/" }
+          ],
+          "locales": {
+            "en": {
+              "title": "**DevOps | CI/CD Essentials**",
+              "text": "Linux Foundation"
+            }
+          }
         },
-
-        "fr": {
-            "title": "Réalis",
-            "title_menu": "Réalisations",
-            "title_long_prefix": "Voici",
-            "title_long": "Mes **Réalisations**"
+        {
+          "icon": {
+            "img": "images/logo/icp.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "05/05/2018",
+            "end": null
+          },
+          "links": [
+            { "string": "see_certification", "href": "https://www.icagile.com/" }
+          ],
+          "locales": {
+            "en": {
+              "title": "**ICP-ACC Agile Coach**",
+              "text": "Certified Coach</p><p>**Credential ID: 0d8246e6b300**"
+            }
+          }
         },
-
-        "ko": {
-            "title": "경력 성과",
-            "title_menu": "경력 성과",
-            "title_long_prefix": "다음은",
-            "title_long": "**경력 성과**입니다"
+        {
+          "icon": {
+            "img": "images/logo/CSM.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "05/05/2015",
+            "end": null
+          },
+          "links": [
+            { "string": "see_certification", "href": "https://www.scrumalliance.org/" }
+          ],
+          "locales": {
+            "en": {
+              "title": "**Certified Scrum Master**",
+              "text": "Scrum Alliance CSM</p><p>**Credential ID: 000350385**"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/logo/Safe.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "05/05/2018",
+            "end": null
+          },
+          "links": [
+            { "string": "see_certification", "href": "https://safe.scaledagile.com/" }
+          ],
+          "locales": {
+            "en": {
+              "title": "**SAFe 6 Agilist**",
+              "text": "Certified Scaled 6 Agilist</p><p>**Credential ID: 43984502-4109**"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/logo/spc.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "05/05/2018",
+            "end": null
+          },
+          "links": [
+            { "string": "see_certification", "href": "https://safe.scaledagile.com/" }
+          ],
+          "locales": {
+            "en": {
+              "title": "**SPC-SAFe**",
+              "text": "SAFe Practice Consultant</p><p>**Credential ID: 13644398-2972**"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/logo/fast.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "05/05/2024",
+            "end": null
+          },
+          "links": [
+            { "string": "see_certification", "href": "https://www.fast.ai/" }
+          ],
+          "locales": {
+            "en": {
+              "title": "**TensorFlow**",
+              "text": "Fast.ai with Tensorflow Backend</p><p>**Credential ID: 845363**"
+            }
+          }
+      },
+      {
+          "icon": {
+            "img": "images/logo/open.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "05/05/2024",
+            "end": null
+          },
+          "links": [
+            { "string": "see_certification", "href": "https://openai.com/" }
+          ],
+          "locales": {
+            "en": {
+              "title": "**OpenAI and Deep Learning**",
+              "text": "Prompt Engineering for Developers</p><p>**Credential ID: 6546545**"
+            }
+          }
+      },
+        {
+          "icon": {
+            "img": "images/logo/pmi.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "08/15/2012",
+            "end": null
+          },
+          "links": [
+            { "string": "see_certification", "href": "https://www.pmi.org/" }
+          ],
+          "locales": {
+            "en": {
+              "title": "**PMP**",
+              "text": "PMI, USA </p><p>**Credential ID: 2168421**"
+            }
+          }
         }
+      ]
     },
-
-    "articles": [
+    {
+      "id": "achievements",
+      "component": "ArticleThread",
+      "config": {},
+      "locales": {
+        "en": { "title": "Achievements" }
+      },
+      "items": [
         {
-            "id": "certifications",
-            "component": "ArticleCards",
-            "config": {},
-            "locales": {
-                "en": { "title": "Certifications" },
-                "es": { "title": "Certificaciones" },
-                "fr": { "title": "Certifications" },
-                "ko": { "title": "인증서" }
-            },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-life-ring",
-                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "12/01/2020",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.linuxfoundation.org/" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "The **Linux Foundation**",
-                            "text": "Certified Kubernetes Administrator (CKA)"
-                        },
-                        "es": {
-                            "text": "Administrador Kubernetes Certificado (CKA)"
-                        },
-                        "fr": {
-                            "text": "Administrateur Kubernetes Certifié (CKA)"
-                        },
-                        "ko": {
-                            "text": "인증된 쿠버네티스 관리자 (CKA)"
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-aws",
-                        "faColors": {"bg": "#FFD700", "fill": "#111"}
-                    },
-                    "dates": {
-                        "start": "05/05/2021",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.aws.com/" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**Amazon** Web Services",
-                            "text": "AWS Certified Solutions Architect – Associate"
-                        },
-                        "es": {
-                            "text": "Arquitecto de Soluciones Certificado de AWS – Asociado"
-                        },
-                        "fr": {
-                            "text": "Architecte de Solutions Certifié AWS – Associé"
-                        },
-                        "ko": {
-                            "text": "AWS 인증 솔루션 아키텍트 – 어소시에이트"
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-java",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "05/05/2022",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.oracle.com/" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**Oracle**",
-                            "text": "Certified Java Developer"
-                        },
-                        "es": {
-                            "text": "Desarrollador Java Certificado"
-                        },
-                        "fr": {
-                            "text": "Développeur Java Certifié"
-                        },
-                        "ko": {
-                            "text": "인증된 자바 개발자"
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "08/15/2023",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.mongodb.com/" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**MongoDB** University",
-                            "text": "MongoDB Certified Developer"
-                        },
-                        "es": {
-                            "text": "Desarrollador Certificado en MongoDB"
-                        },
-                        "fr": {
-                            "text": "Développeur Certifié MongoDB"
-                        },
-                        "ko": {
-                            "text": "몽고디비 인증 개발자"
-                        }
-                    }
-                }
-            ]
+          "dates": { "start": "2025-01-01", "end": null },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "Built Digital Saathi – AI agri platform",
+              "info": "Cargill India",
+              "text": "</p><ul><li>Empowered Indian farmers with mobile-first crop diagnostics.</li><li>Integrated leaf health detection, treatment recommendations, and doctor access.</li><li><a href='https://economictimes.indiatimes.com/news/economy/agriculture/cargill-launches-digital-sathi-a-mobile-first-local-online-service-platform/articleshow/86454028.cms' target='_blank' style='color: #00ccff; text-decoration: underline;'>Featured in Economic Times</a></li></ul>"
+            }
+          }
         },
-
         {
-            "id": "awards",
-            "component": "ArticleThread",
-            "config": {},
-            "locales": {
-                "en": { "title": "Awards" },
-                "es": { "title": "Premios" },
-                "fr": { "title": "Récompenses" },
-                "ko": { "title": "수상 내역" }
-            },
-
-            "items": [
-                {
-                    "dates": {
-                        "start": "09/01/2019",
-                        "end": null
-                    },
-                    "links": [],
-                    "locales": {
-                        "en": {
-                            "title": "**Best Final Year Project** – Backend Optimization",
-                            "info": "MIT",
-                            "text": "Recognized for innovative work on optimizing backend systems for cloud environments, achieving significant performance improvements."
-                        },
-                        "es": {
-                            "title": "**Mejor Proyecto de Fin de Carrera** – Optimización de Backend",
-                            "info": "MIT",
-                            "text": "Reconocido por su trabajo innovador en la optimización de sistemas backend para entornos en la nube, logrando importantes mejoras en el rendimiento."
-                        },
-                        "fr": {
-                            "title": "**Meilleur Projet de Fin d'Études** – Optimisation du Backend",
-                            "info": "MIT",
-                            "text": "Reconnu pour son travail innovant sur l'optimisation des systèmes backend pour les environnements cloud, avec des améliorations significatives des performances."
-                        },
-                        "ko": {
-                            "title": "**최우수 졸업 프로젝트** – 백엔드 최적화",
-                            "info": "MIT",
-                            "text": "클라우드 환경에서 백엔드 시스템을 최적화한 혁신적인 작업으로 성능을 크게 개선한 것으로 인정받았습니다."
-                        }
-                    }
-                },
-                {
-                    "dates": {
-                        "start": "05/01/2020",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "more_info", "href": "https://github.com/torvalds/linux" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**Top Contributor** – Open Source Backend Project",
-                            "info": "GitHub",
-                            "text": "Awarded for contributing to an open-source backend framework that improved scalability and reduced latency."
-                        },
-                        "es": {
-                            "title": "**Contribuidor Destacado** – Proyecto de Backend de Código Abierto",
-                            "info": "GitHub",
-                            "text": "Premiado por su contribución a un framework de backend de código abierto que mejoró la escalabilidad y redujo la latencia."
-                        },
-                        "fr": {
-                            "title": "**Meilleur Contributeur** – Projet Backend Open Source",
-                            "info": "GitHub",
-                            "text": "Récompensé pour sa contribution à un cadre backend open source qui a amélioré l'évolutivité et réduit la latence."
-                        },
-                        "ko": {
-                            "title": "**최우수 기여자** – 오픈 소스 백엔드 프로젝트",
-                            "info": "GitHub",
-                            "text": "확장성을 개선하고 지연 시간을 줄인 오픈 소스 백엔드 프레임워크에 기여한 공로로 수상했습니다."
-                        }
-                    }
-                },
-                {
-                    "dates": {
-                        "start": "11/01/2021",
-                        "end": null
-                    },
-                    "links": [],
-                    "locales": {
-                        "en": {
-                            "title": "**1st Place** – Global API Design Challenge",
-                            "info": "API Developer Conference",
-                            "text": "Secured 1st place for developing a robust API with advanced features like real-time data processing and seamless integration."
-                        },
-                        "es": {
-                            "title": "**1er Lugar** – Desafío Global de Diseño de API",
-                            "info": "Conferencia de Desarrolladores de API",
-                            "text": "Obtuvo el 1er lugar por desarrollar una API robusta con funciones avanzadas como procesamiento de datos en tiempo real e integración sin problemas."
-                        },
-                        "fr": {
-                            "title": "**1ère Place** – Défi Mondial de Conception d'API",
-                            "info": "Conférence des Développeurs d'API",
-                            "text": "A remporté la 1ère place pour avoir développé une API robuste avec des fonctionnalités avancées comme le traitement des données en temps réel et l'intégration transparente."
-                        },
-                        "ko": {
-                            "title": "**1위** – 글로벌 API 디자인 챌린지",
-                            "info": "API 개발자 컨퍼런스",
-                            "text": "실시간 데이터 처리 및 원활한 통합과 같은 고급 기능을 갖춘 강력한 API를 개발하여 1위를 차지했습니다."
-                        }
-                    }
-                },
-                {
-                    "dates": {
-                        "start": "06/01/2023",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "more_info", "href": "https://google.com" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**Best Backend Architecture** – Tech Innovator Awards",
-                            "info": "Tech Innovator Magazine",
-                            "text": "Recognized for designing an efficient and scalable backend architecture that improved system performance and reliability."
-                        },
-                        "es": {
-                            "title": "**Mejor Arquitectura de Backend** – Premios a los Innovadores Tecnológicos",
-                            "info": "Revista Tech Innovator",
-                            "text": "Reconocido por diseñar una arquitectura de backend eficiente y escalable que mejoró el rendimiento y la confiabilidad del sistema."
-                        },
-                        "fr": {
-                            "title": "**Meilleure Architecture Backend** – Prix de l'Innovateur Technologique",
-                            "info": "Magazine Tech Innovator",
-                            "text": "Reconnu pour avoir conçu une architecture backend efficace et évolutive qui a amélioré les performances et la fiabilité du système."
-                        },
-                        "ko": {
-                            "title": "**최우수 백엔드 아키텍처** – 기술 혁신자 어워드",
-                            "info": "Tech Innovator 매거진",
-                            "text": "시스템 성능과 안정성을 개선한 효율적이고 확장 가능한 백엔드 아키텍처 설계로 인정받았습니다."
-                        }
-                    }
-                }
-            ]
+         "dates": { "start": "2024-01-01", "end": null },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "Launched the world’s largest AI-powered Sustainability SaaS (Tract)",
+              "info": "Tract Sustainability Platform",
+              "text": "</p><ul><li>Built with $10M+ YoY investment over 3 years.</li><li>Adopted by 40+ Fortune 100 companies for ESG and traceability.</li><li><a href='https://www.tract.eco/news/tract-secures-11-million-in-new-funding' target='_blank' style='color: #00ccff; text-decoration: underline;'>Read Official Announcement</a></li></ul>"
+            }
+          }
+        },
+        {
+          "dates": { "start": "2022-06-01", "end": null },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "Architected MIApp’s ChatGPT-4 powered AI Agent",
+              "info": "Cargill Digital Labs",
+              "text": "</p><ul><li>Reduced manual triage by 50% and accelerated resolution by 35%.</li><li>Integrated ChatGPT-4 based AI assistant into internal ops.</li><li><a href='https://play.google.com/store/apps/details?id=com.cargill.marketintelligence.miapp&hl=en_IN' target='_blank' style='color: #00ccff; text-decoration: underline;'>Explore Product Listing</a></li></ul>"
+             }
+          }
+        },
+        {
+          "dates": { "start": "2021-01-01", "end": null },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "Saved $10M/year by scaling Cargill’s engineering teams 900%",
+              "info": "Cargill Digital Labs",
+              "text": "</p><ul><li>Transitioned to in-house delivery from vendor-reliant model.</li><li>Boosted product velocity by 20% while saving $10M annually.</li><li><a href='https://play.google.com/store/apps/developer?id=Cargill,+Incorporated&hl=en_IN' target='_blank' style='color: #00ccff; text-decoration: underline;'>Google Developer Profile</a></li></ul>"
+            }
+          }
+        },
+        {
+          "dates": { "start": "2024-09-01" },
+  "locales": {
+    "en": {
+      "title": "Scaled Hatching Hope – a global poultry livelihood initiative",
+      "info": "Hatching Hope (Cargill + Heifer International)",
+      "text": "</p><ul><li>Helped expand digital outreach to smallholder poultry farmers across India, Kenya, and Mexico.</li><li>Drove adoption of nutrition education, market access, and poultry health tools.</li><li><a href='https://www.hatchinghopeglobal.org/' target='_blank' style='color:#00ccff; text-decoration: underline;'>Visit Hatching Hope Initiative</a></li></ul>"
+    }
+          }
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,0 +1,29 @@
+{
+    "id": "updates",
+    "component": "ArticleThread",
+    "config": {},
+    "locales": {
+      "en": {
+        "title": "My Recent Updates",
+        "title_menu": "My Recent Updates",
+        "title_long_prefix": "Here are my",
+        "title_long": "**Latest Personal Updates**"
+      }
+    },
+    "items": [
+      {
+        "date": "2024-12-01",
+        "title": "Launched My Personal Website",
+        "info": "Personal Project",
+        "text": "<p>I finally launched my personal website — something I've been dreaming about for years.</p><p>Built from scratch in a month using <strong>React</strong>, <strong>Tailwind CSS</strong>, and <strong>Vite</strong>, the site showcases my product journey and AI work including Tract, MIApp, and Digital Saathi.</p><p>I'm now planning to integrate a <strong>LangChain-powered AI Agent</strong> and a chatbot to make it more interactive. This site is more than a portfolio — it reflects my passion and technical skills.</p>",
+        "locales": {
+          "en": {
+            "title": "Launched My Personal Website",
+            "info": "Personal Project",
+            "text": "<p>I finally launched my personal website — something I've been dreaming about for years.</p><p>Built from scratch in a month using <strong>React</strong>, <strong>Tailwind CSS</strong>, and <strong>Vite</strong>, the site showcases my product journey and AI work including Tract, MIApp, and Digital Saathi.</p><p>I'm now planning to integrate a <strong>LangChain-powered AI Agent</strong> and a chatbot to make it more interactive. This site is more than a portfolio — it reflects my passion and technical skills.</p>"
+          }
+        }
+      }
+    ]
+  }
+  

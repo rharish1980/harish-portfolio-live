@@ -2,6 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: './', // ✅ Use relative path — this fixes asset path issues on Vercel
+  base: '/', // or './' — both are OK for Vercel if you're hosting at root
   plugins: [react()],
 });

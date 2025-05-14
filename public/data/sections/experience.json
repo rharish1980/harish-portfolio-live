@@ -1,187 +1,115 @@
 {
     "locales": {
-        "en": {
-            "title": "Experience",
-            "title_long_prefix": "Summary of my",
-            "title_long": "**Work** Experience"
-        },
-
-        "es": {
-            "title": "Experiencia",
-            "title_long_prefix": "Resumen de mi",
-            "title_long": "Experiencia **Laboral**"
-        },
-
-        "fr": {
-            "title": "Expérience",
-            "title_long_prefix": "Résumé de mon",
-            "title_long": "Parcours **Professionel**"
-        },
-
-        "ko": {
-            "title": "경험",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**직업적** 경험"
-        }
+      "en": {
+        "title": "Experience",
+        "title_long_prefix": "Summary of my",
+        "title_long": "**Work** Experience"
+      }
     },
-
     "articles": [
-        {
-            "id": "work",
-            "component": "ArticleTimeline",
-            "config": {},
-            "locales": {},
-
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/pictures/place-7.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "03/01/2016",
-                        "end": "06/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Backend** Developer",
-                            "info": "Sapphire Studio",
-                            "text": "Developed and maintained scalable backend systems for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
-                            "tags": ["PHP", "MySQL", "Laravel"]
-                        },
-                        "es": {
-                            "title": "Desarrollador **Backend**",
-                            "info": "Sapphire Studio",
-                            "text": "Desarrollé y mantuve sistemas backend escalables para varios clientes, optimizando el rendimiento de la base de datos e implementando APIs RESTful para mejorar la funcionalidad de la aplicación.",
-                            "tags": null
-                        },
-                        "fr": {
-                            "title": "Développeur **Backend**",
-                            "info": "Sapphire Studio",
-                            "text": "Développé et maintenu des systèmes backend évolutifs pour divers clients, optimisant les performances de la base de données et implémentant des APIs RESTful pour améliorer la fonctionnalité de l'application.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**백엔드** 개발자",
-                            "info": "사파이어 스튜디오",
-                            "text": "여러 클라이언트를 위해 확장 가능한 백엔드 시스템을 개발하고 유지 관리하며, 데이터베이스 성능을 최적화하고 애플리케이션 기능을 개선하기 위해 RESTful API를 구현했습니다.",
-                            "tags": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": "images/pictures/place-3.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "06/01/2018",
-                        "end": "12/01/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Full-Stack** Engineer",
-                            "info": "Coursera",
-                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
-                            "tags": ["JavaScript", "React", "Node.js", "PHP", "REST", "Docker"]
-                        },
-                        "es": {
-                            "title": "Ingeniero **Full-Stack**",
-                            "info": "Coursera",
-                            "text": "Participé en la mejora del sitio web de Coursera al implementar nuevas funcionalidades y optimizar la experiencia del usuario, utilizando tecnologías de frontend y backend para asegurar un funcionamiento sin problemas.",
-                            "tags": null
-                        },
-                        "fr": {
-                            "title": "Ingénieur **Full-Stack**",
-                            "info": "Coursera",
-                            "text": "J'ai contribué à l'amélioration du site Web de Coursera en ajoutant de nouvelles fonctionnalités et en optimisant l'expérience utilisateur, en utilisant des technologies frontend et backend pour garantir un fonctionnement fluide.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**풀스택** 엔지니어",
-                            "info": "코세라",
-                            "text": "Coursera 웹사이트를 개선하기 위해 새로운 기능을 추가하고 사용자 경험을 최적화했습니다. 원활한 기능을 보장하기 위해 프론트엔드와 백엔드 기술을 모두 활용했습니다.",
-                            "tags": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": "images/pictures/place-1.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "12/01/2020",
-                        "end": "11/01/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Backend** Engineer",
-                            "info": "Adobe Inc.",
-                            "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
-                            "tags": ["Java", "AWS", "REST", "Docker"]
-                        },
-                        "es": {
-                            "title": "Ingeniero **Backend**",
-                            "info": "Adobe Inc.",
-                            "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia en el procesamiento de datos mediante funciones en la nube.",
-                            "tags": null
-                        },
-                        "fr": {
-                            "title": "Ingénieur **Backend**",
-                            "info": "Adobe Inc.",
-                            "text": "J'ai contribué au développement de systèmes backend solides pour Adobe Creative Cloud, intégrant des services tiers et améliorant l'efficacité du traitement des données grâce aux fonctions cloud.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**백엔드** 엔지니어",
-                            "info": "어도비 주식회사",
-                            "text": "Adobe Creative Cloud를 위한 강력한 백엔드 시스템 개발에 기여하였으며, 타사 서비스 통합과 클라우드 기능을 통해 데이터 처리 효율성을 향상시켰습니다.",
-                            "tags": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-apple",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "12/01/2022",
-                        "end": "now"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Senior Backend** Developer",
-                            "info": "Apple Inc.",
-                            "text": "<p>Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:</p> <ul><li>Security</li><li>Scalability to handle millions of users globally</li><li>Developing RESTful APIs</li><li>Optimizing database performance with PostgreSQL</li><li>Building services with Swift, PHP, and GraphQL</li></ul> <p class='mt-3'>Together, we ensure Apple's backend infrastructure stays robust and efficient.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "es": {
-                            "title": "Desarrollador **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:</p> <ul><li>Seguridad</li><li>Escalabilidad para manejar millones de usuarios a nivel global</li><li>Desarrollar APIs RESTful</li><li>Optimizar el rendimiento de bases de datos con PostgreSQL</li><li>Construcción de servicios con Swift, PHP y GraphQL</li></ul> <p class='mt-3'>Juntos, aseguramos que la infraestructura backend de Apple se mantenga robusta y eficiente.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "fr": {
-                            "title": "Développeur **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Dirigeant une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services d'Apple, en se concentrant sur:</p> <ul><li>Sécurité</li><li>Scalabilité pour gérer des millions d'utilisateurs dans le monde</li><li>Développement d'APIs RESTful</li><li>Optimisation des performances des bases de données avec PostgreSQL</li><li>Création de services avec Swift, PHP et GraphQL</li></ul> <p class='mt-3'>Ensemble, nous assurons que l'infrastructure backend d'Apple reste robuste et efficace.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "ko": {
-                            "title": "**수석 백엔드** 개발자",
-                            "info": "애플 주식회사",
-                            "text": "<p>Apple 서비스의 백엔드 솔루션을 설계하고 구현하는 개발 팀을 이끌며, 다음에 중점을 둡니다:</p> <ul><li>보안</li><li>수백만 명의 사용자를 처리할 수 있는 확장성</li><li>RESTful API 개발</li><li>PostgreSQL로 데이터베이스 성능 최적화</li><li>Swift, PHP, GraphQL로 서비스 구축</li></ul> <p class='mt-3'>우리는 함께 Apple의 백엔드 인프라가 견고하고 효율적으로 유지되도록 보장합니다.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        }
-                    }
-                }
-            ]
-        }
+      {
+        "id": "work",
+        "component": "ArticleTimeline",
+        "config": {},
+        "locales": {},
+        "items": [
+          {
+            "icon": {
+              "img": "images/pictures/cargill.png",
+              "fa": "fa-brands fa-apple",
+              "faColors": { "bg": "#111", "fill": "#EEE" }
+            },
+            "dates": {
+              "start": "01/01/2020",
+              "end": "03/05/2025"
+            },
+            "locales": {
+              "en": {
+                "title": "**Director - AI Product Development and Management**",
+                "info": "Cargill Inc.",
+                "text": "</p><ul><li>Led the world’s largest AI-powered Sustainability Consortium SaaS B2B product, managing $10M+ YoY capital investment over 3 consecutive years evolving into a thriving <a href='https://www.tract.eco/news/tract-secures-11-million-in-new-funding' target='_blank' style='color: blue; text-decoration: underline;'>Startup</a>.</li><li>Built and scaled a transformative Global Capability Center (GCC), delivering $50M+ business value through AI-enabled Agile Product Development and Cloud Innovation.</li><li>Enabled a strategic shift that saved $4M by instilling a fail-fast, fail-cheap innovation culture.</li><li>Pioneered a $5M mobile AI platform for crop diagnostics using computer vision to predict leaf decay and recommend treatments.</li><li>Architected AI-Agent, a ChatGPT-4 powered autonomous assistant in MIApp, reducing triage by 50% and accelerating incident resolution by 35%.</li><li>Spearheaded GenAI-driven sustainability SaaS products with RAG diagnostics adopted by 40+ Fortune 100 firms.</li><li>Scaled engineering by 900%, shifting from vendor-based to in-house delivery—saving $10M annually and boosting product velocity by 20%.</li></ul>",
+                "tags": ["AWS", "Azure", "DL - TensorFlow", "DL - Scikit Learn", "GenAI - RAG", "AI Agent X - LangChain", "PostgreSQL", "React", "RESTful APIs", "Python", "Microservices", "PWA"]
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/Vestas.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "06/01/2019",
+              "end": "01/01/2020"
+            },
+            "locales": {
+              "en": {
+                "title": "**Sr. Technical Program Manager**",
+                "info": "Collabera / Vestas Inc.",
+                "text": "</p><ul><li>Delivered AI-driven energy analytics platform (Scipher) integrated with IoT systems, improving uptime by 30%.</li><li>Established Agile Release Trains for 96+ cross-functional team members across DevOps and support teams.</li><li>Engaged MSP-aligned teams to streamline wind farm support, scaling field ops efficiency by over 20%.</li></ul>",
+                "tags": ["IoT", "AI", "DevOps", "Agile", "Energy"]
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/Clario.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "06/01/2016",
+              "end": "08/01/2018"
+            },
+            "locales": {
+              "en": {
+                "title": "**Engineering Manager**",
+                "info": "Clario Inc.",
+                "text": "</p><ul><li>Built and launched traceability platforms (LitTRACE, SigTRACE, PvTRACE, ASRTRACE, eCTD) with LAMP stack, reducing maintenance by 50%.</li><li>Developed GTM strategy with marketing, enhancing brand visibility and user adoption.</li><li>Collaborated with product and design to refine specs, improving user experience and platform efficiency.</li></ul>",
+                "tags": ["LAMP", "Cloud", "Traceability", "Go-to-Market", "UX"]
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/CHR.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "12/01/2010",
+              "end": "06/01/2016"
+            },
+            "locales": {
+              "en": {
+                "title": "**Technical Product Manager**",
+                "info": "CHR Solutions",
+                "text": "</p><ul><li>Launched a telecom self-service portal, cutting support tickets by 30% and improving user satisfaction.</li><li>Led CRM and billing system API integrations for real-time sync and reduced operational errors.</li><li>Implemented A/B testing and UX feedback loops to optimize engagement and retention.</li><li>Proactively resolved technical issues using analytics dashboards and post-launch monitoring.</li></ul>",
+                "tags": ["Telecom", "A/B Testing", "CRM", "Billing", "Analytics"]
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/multiple.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "01/01/2002",
+              "end": "12/01/2010"
+            },
+            "locales": {
+              "en": {
+                "title": "**Software Engineer / Team Lead**",
+                "info": "KGISL | Cordiant | Infor Global | Covansys",
+                "text": "</p><ul><li>Served across roles from developer to team lead—spanning design, coding, QA, and delivery functions.</li><li>Built foundational expertise in product delivery lifecycle across diverse enterprise systems and technologies.</li></ul>",
+                "tags": ["Java", "QA", "SDLC", "Delivery", "Enterprise Systems"]
+              }
+            }
+          }
+        ]
+      }
     ]
-}
+  }
+  
