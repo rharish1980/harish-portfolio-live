@@ -34,12 +34,12 @@
     "supportedThemes": [
       {
         "id": "dark",
-        "default": false,
+        "default": true,
         "icon": "fa-solid fa-moon"
       },
       {
         "id": "light",
-    "default": true,
+    "default": false,
     "icon": "fa-solid fa-sun",
     "backgroundUrl": "/images/css/bg-white.png"
       }
