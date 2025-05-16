@@ -1,78 +1,95 @@
 {
-    "locales": {
-      "en": {
-        "title": "Education",
-        "title_long_prefix": "This is my",
-        "title_long": "Educational Background"
-      }
-    },
-    "articles": [
-      {
-        "id": "academic",
-        "component": "ArticleTimeline",
-        "config": {},
-        "locales": {},
-        "items": [
-          {
-            "icon": {
-              "img": "images/pictures/Annamalai.png",
-              "fa": "",
-              "faColors": { "bg": null, "fill": null }
-            },
-            "dates": {
-              "start": "2008",
-              "end": "2010"
-            },
-            "locales": {
-              "en": {
-                "title": "Master's in International Business Administration **- MBA**",
-                "info": "Annamalai University",
-                "text": "Completed a comprehensive MBA program in International Business with a focus on global trade, cross-border strategy, international marketing, and financial management, equipping me to navigate complex global markets and drive business growth across geographies.",
-                "tags": ["International Business"]
-              }
-            }
+  "locales": {
+    "en": {
+      "title": "Education",
+      "title_long_prefix": "This is my",
+      "title_long": "Educational Background"
+    }
+  },
+  "articles": [
+    {
+      "id": "academic",
+      "component": "ArticleTimeline",
+      "config": {},
+      "locales": {},
+      "items": [
+        {
+          "icon": {
+            "img": "images/pictures/Annamalai.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
           },
-          {
-            "icon": {
-              "img": "images/pictures/BTech.png",
-              "fa": "",
-              "faColors": { "bg": null, "fill": null }
-            },
-            "dates": {
-              "start": "1997",
-              "end": "2001"
-            },
-            "locales": {
-              "en": {
-                "title": "Bachelor of Technology **- BTech**",
-                "info": "Kanpur University",
-                "text": "Completed an intensive engineering program focused on electronics, communication systems, embedded technologies, and signal processing, with hands-on experience in circuit design, microcontrollers, and digital communication protocols.",
-                "tags": ["Electronics and Communication Engineering"]
-              }
-            }
+          "dates": {
+            "start": "2008",
+            "end": "2010"
           },
-          {
-            "icon": {
-              "img": "images/pictures/brand.png",
-              "fa": "",
-              "faColors": { "bg": null, "fill": null }
-            },
-            "dates": {
-              "start": "2022",
-              "end": "2022"
-            },
-            "locales": {
-              "en": {
-                "title": "Product Strategy Professional Program **- IIM-K**",
-                "info": "Indian Institute of Management",
-                "text": "<p>Completed IIM's Product Strategy program, building expertise in customer-centric product development, data-driven decisions, lifecycle management, and strategic leadership. Gained skills to craft value-driven business models and communicate effectively across stakeholders and teams.</p>",
-                "tags": ["Start-up | Roadmap | Business Value | Analytics | Customer centricity | MVP | MLP | MMP | Design Thinking | Product Vision"]
-              }
-           
+          "locales": {
+            "en": {
+              "title": "Master's in International Business Administration **- MBA**",
+              "info": "Annamalai University",
+              "text": "Completed a comprehensive MBA program in International Business with a focus on global trade, cross-border strategy, international marketing, and financial management, equipping me to navigate complex global markets and drive business growth across geographies.",
+              "tags": ["International Business"]
             }
           }
-        ]
-      }
-    ]
-  }
-  
+        },
+        {
+          "icon": {
+            "img": "images/pictures/BTech.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "1997",
+            "end": "2001"
+          },
+          "locales": {
+            "en": {
+              "title": "Bachelor of Technology **- BTech**",
+              "info": "Kanpur University",
+              "text": "Completed an intensive engineering program focused on electronics, communication systems, embedded technologies, and signal processing, with hands-on experience in circuit design, microcontrollers, and digital communication protocols.",
+              "tags": ["Electronics and Communication Engineering"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/brand.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "2022",
+            "end": "2022"
+          },
+          "locales": {
+            "en": {
+              "title": "Product Strategy Professional Program **- IIM-K**",
+              "info": "Indian Institute of Management",
+              "text": "<p>Completed IIM's Product Strategy program, building expertise in customer-centric product development, data-driven decisions, lifecycle management, and strategic leadership. Gained skills to craft value-driven business models and communicate effectively across stakeholders and teams.</p>",
+              "tags": ["Start-up | Roadmap | Business Value | Analytics | Customer centricity | MVP | MLP | MMP | Design Thinking | Product Vision"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/James.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "2016",
+            "end": "2016"
+          },
+          "locales": {
+            "en": {
+              "title": "Post Graduate Program in Regulatory Affairs **- James Lind Institute**",
+              "info": "James Lind Institute",
+              "text": "<p>Completed a postgraduate program in Regulatory Affairs with a specialization in Clinical Trials. Developed a strong understanding of global regulatory frameworks, clinical research protocols, ethics compliance, pharmacovigilance, and documentation processes required for drug approval and medical device registration.</p>",
+              "tags": ["Clinical Trials | Regulatory Strategy | Pharmacovigilance | FDA | EMA | GCP | ICH Guidelines | Compliance | Risk Management"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
